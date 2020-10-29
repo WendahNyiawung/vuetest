@@ -10,6 +10,35 @@ $grid-breakpoints: (
 ) !default;
 @import'/node_modules/bootstrap/scss/bootstrap.scss';
 
+
+
+
+nav a:focus{
+    border-bottom: 3px solid black;
+}
+nav a{
+   color: black;
+   font-size: 1rem;
+   font-weight: 500;
+}
+nav a:hover{
+    border-bottom: 3px solid black;
+    color: black;
+}
+.domestic-artist{
+ width: 12rem;
+ margin-right: 21rem;
+ margin-bottom: -28rem;
+}
+.artist-btn{
+    font-weight: 500;
+}
+.artist-btn:hover{
+     border-bottom: 3px solid black;
+}
+.artist-btn:focus{
+    outline: 0px;
+}
 .follow a{
     width: 3rem;
 }
@@ -72,7 +101,7 @@ $grid-breakpoints: (
       height: 100vh;
   }
   .carousel-indicator{
-      margin-top: 32rem;
+      margin-top: 33rem;
   }
   
 }

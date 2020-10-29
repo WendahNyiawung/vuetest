@@ -75,7 +75,7 @@
     </div>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
       <div class="container-fluid d-flex align-items-center">
-        <router-link to="/">
+        <router-link to="/" class="navbar-brand">
           <img src="../../assets/logo.png" alt="" class="logo" />
         </router-link>
         <button
@@ -91,16 +91,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="d-sm-block d-lg-flex ml-auto align-items-center">
-            <router-link to="/" class="mx-3">Home</router-link>
-            <router-link to="/warnerinternational" class="mx-3">WARNER INTERNATIONAL</router-link>
-            <router-link to="/about" class="mx-3">About</router-link>
+            <router-link to="/" class="nav-link mx-1">HOME</router-link>
+            <router-link to="/warnerinternational" class="mx-1 nav-link"
+              >WARNER INTERNATIONAL</router-link
+            >
+            <button class="btn btn-light artist-btn" @click="domesticartist=!domesticartist">DOMESTIC ARTIST</button>
+            <router-link to="#" class=" nav-link mx-1">NEWS</router-link>
+            <router-link to="/contact" class=" nav-link mx-1">CONTACT</router-link>
 
             <button
               href=""
-              class="d-sm-none d-lg-block btn rounded-pill mx-3 d-flex bg-dark align-items-center text-light mt-sm-2 mx-sm-0"
+              class="d-sm-none d-lg-block btn rounded-pill ml-3 d-flex bg-dark align-items-center text-light mt-sm-2 mx-sm-0"
               @click="followUs = !followUs"
             >
-              Follow Us
+              FOLLOW US
               <svg
                 width="1em"
                 height="1em"
@@ -119,6 +123,17 @@
         </div>
       </div>
     </nav>
+     <div v-if="domesticartist" class="domestic-artist bg-dark py-2 ml-auto">
+              <router-link to="/faith" class="nav-link d-block mt-2 text-light border-0" > Faith</router-link>
+              <router-link to="/faith" class="nav-link d-block mt-2 text-light border-0" > Faith</router-link>
+              <router-link to="/faith" class="nav-link d-block mt-2 text-light border-0" > Faith</router-link>
+              <router-link to="/faith" class="nav-link d-block mt-2 text-light border-0" > Faith</router-link>
+              <router-link to="/faith" class="nav-link d-block mt-2 text-light border-0" > Faith</router-link>
+              <router-link to="/faith" class="nav-link d-block mt-2 text-light border-0" > Faith</router-link>
+              <router-link to="/faith" class="nav-link d-block mt-2 text-light border-0" > Faith</router-link>
+              <router-link to="/faith" class="nav-link d-block mt-2 text-light border-0" > Faith</router-link>
+              <router-link to="/faith" class="nav-link d-block mt-2 text-light border-0" > Faith</router-link>
+            </div>
   </header>
 </template>
 <script>
@@ -126,6 +141,7 @@ export default {
   data() {
     return {
       followUs: false,
+      domesticartist:false
     };
   },
 };

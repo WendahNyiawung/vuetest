@@ -37,12 +37,12 @@
     </div>
     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
      <div class="bg-dark carousel-indicator">
-          <span class="carousel-control-prev-icon mt-3" aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon mt-2" aria-hidden="true"></span>
      </div>
     </a>
     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
       <div class="bg-dark carousel-indicator">
-          <span class="carousel-control-next-icon mt-3" aria-hidden="true"></span>
+          <span class="carousel-control-next-icon mt-2" aria-hidden="true"></span>
       </div>
     </a>
   </div>
