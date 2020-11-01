@@ -1,6 +1,32 @@
 
+.d-artist ul{
+    list-style: none;
+}
+.d-artist ul li{
+    margin-top: 2rem;
+}
+
+.d-artist ul{
+    margin-bottom: 2rem;
+}
+.d-artist ul  ul{
+  //  display: none;
+  background-color: rgba(0, 0, 0, 0.699);
+  color: white;
+  
+}
+.d-artist ul li ul li{
+    display: none;
+}
+.d-artist ul li:hover ul li{
+    display: block;
+    margin-bottom: -12rem;
+}
+.d-artist ul li ul li{
+   text-align: center;
+}
 nav{
-    background: rgba(255, 255, 255, 0.671);
+    z-index: 4;
 }
 nav a:focus{
     border-bottom: 3px solid black;
@@ -10,7 +36,7 @@ nav a{
    font-size: 1rem;
    font-weight: 500;
 }
-nav a:hover{
+nav a:hover {
     border-bottom: 3px solid black;
     color: black;
 }
