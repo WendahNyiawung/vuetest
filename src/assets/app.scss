@@ -18,18 +18,13 @@
 .d-artist ul li ul li{
     display: none;
 }
-.d-artist ul li:hover ul li{
-    display: block;
-    margin-bottom: -12rem;
-     animation-name: newsanime;
-    animation-duration: 5s;
-}
+
 .d-artist ul li ul li{
    text-align: center;
 }
 .news ul{
     list-style: none;
-    width: 14rem;
+   // width: 14rem;
     
 }
 .news ul li{
@@ -61,6 +56,12 @@
     display: block;
     margin-bottom: -12rem;
     animation-name: newsanime;
+    animation-duration: 5s;
+}
+.d-artist ul li:hover ul li{
+    display: block;
+    margin-bottom: -12rem;
+      animation-name: newsanime;
     animation-duration: 5s;
 }
 .news ul li ul li{

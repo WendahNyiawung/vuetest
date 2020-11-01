@@ -98,7 +98,7 @@
             <div class="d-artist">
                  <ul>
               <li>
-                <a href="#" class="nav-link mx-1">DOMESTIC ARTIST</a>
+                <a href="#" class="nav-link mx-1 text-lg-center">DOMESTIC ARTIST</a>
                 <ul>
                   <li class="px-3">
                      <router-link to="/faith" class="nav-link text-light border-0 mr-5">ARTIST NAME</router-link>
