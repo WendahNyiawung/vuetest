@@ -21,8 +21,49 @@
 .d-artist ul li:hover ul li{
     display: block;
     margin-bottom: -12rem;
+     animation-name: newsanime;
+    animation-duration: 5s;
 }
 .d-artist ul li ul li{
+   text-align: center;
+}
+.news ul{
+    list-style: none;
+    width: 14rem;
+    
+}
+.news ul li{
+    margin-top: 2rem;
+}
+
+.news ul{
+    margin-bottom: 2rem;
+}
+.news ul  ul{
+  //  display: none;
+  background-color: rgba(0, 0, 0, 0.699);
+  color: white;
+  
+}
+.news ul li ul li{
+    display: none;
+}
+
+/// animations
+@keyframes newsanime{
+    0% {opacity: 0;}
+    25% {opacity: 25;}
+    50% {opacity: 50;}
+    75% {opacity: 75;}
+    100% {opacity: 100;}
+}
+.news ul li:hover ul li{
+    display: block;
+    margin-bottom: -12rem;
+    animation-name: newsanime;
+    animation-duration: 5s;
+}
+.news ul li ul li{
    text-align: center;
 }
 nav{

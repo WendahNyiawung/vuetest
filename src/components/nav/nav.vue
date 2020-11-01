@@ -96,66 +96,36 @@
               >WARNER INTERNATIONAL</router-link
             >
             <div class="d-artist">
-              <ul>
-                <li>
-                  <a href="#" class="nav-link mx-1">DOMESTIC ARTIST</a>
-                  <ul>
-                    <li class="px-3">
-                      <router-link
-                        to="/faith"
-                        class="nav-link text-light border-0 mr-5"
-                        >ARTIST NAME</router-link
-                      >
-                      <router-link
-                        to="/faith"
-                        class="nav-link text-light border-0 mr-5"
-                        >ARTIST NAME</router-link
-                      >
-                      <router-link
-                        to="/faith"
-                        class="nav-link text-light border-0 mr-5"
-                        >ARTIST NAME</router-link
-                      >
-                      <router-link
-                        to="/faith"
-                        class="nav-link text-light border-0 mr-5"
-                        >ARTIST NAME</router-link
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+                 <ul>
+              <li>
+                <a href="#" class="nav-link mx-1">DOMESTIC ARTIST</a>
+                <ul>
+                  <li class="px-3">
+                     <router-link to="/faith" class="nav-link text-light border-0 mr-5">ARTIST NAME</router-link>
+                     <router-link to="/faith" class="nav-link text-light border-0 mr-5">ARTIST NAME</router-link>
+                     <router-link to="/faith" class="nav-link text-light border-0 mr-5">ARTIST NAME</router-link>
+                     <router-link to="/faith" class="nav-link text-light border-0 mr-5">ARTIST NAME</router-link>
+                  </li>
+                </ul>
+              </li>
+            </ul>
             </div>
-            <div class="d-artist">
-              <ul>
-                <li>
-                  <a href="#" class="nav-link mx-1">NEWS</a>
-                  <ul>
-                    <li class="px-3">
-                      <router-link
-                        to="/faith"
-                        class="nav-link text-light border-0 mr-5"
-                        >BLOG</router-link
-                      >
-                      <router-link
-                        to="/faith"
-                        class="nav-link text-light border-0 mr-5"
-                        >MEDIA RELEASE</router-link
-                      >
-                      <router-link
-                        to="/faith"
-                        class="nav-link text-light border-0 mr-5"
-                        >WARNER CARE</router-link
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+            <div class="news">
+                 <ul>
+              <li>
+                <a href="#" class="nav-link mx-1 text-lg-center">NEWS</a>
+                <ul>
+                  <li class="px-3 py-3">
+                     <router-link to="/faith" class="nav-link text-light border-0 mr-3">BLOG</router-link>
+                     <router-link to="/faith" class="nav-link text-light border-0 ">MEDIA RELEASE</router-link>
+                     <router-link to="/faith" class="nav-link text-light border-0 ">WARNER CARE</router-link>
+                  </li>
+                </ul>
+              </li>
+            </ul>
             </div>
-
-            <router-link to="/contact" class="nav-link mx-1"
-              >CONTACT</router-link
-            >
+          
+            <router-link to="/contact" class=" nav-link mx-1">CONTACT</router-link>
 
             <button
               href=""
@@ -188,7 +158,7 @@ export default {
   data() {
     return {
       followUs: false,
-      domesticartist: false,
+      domesticartist:false
     };
   },
 };
