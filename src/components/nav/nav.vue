@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="follow navbar bg-dark py-2" v-if="followUs">
+    <nav class="follow navbar bg-dark py-2" v-if="followUs">
       <div class="d-flex align-items-center justify-content-between">
         <a href="" class="btn btn-dark rounded-pill mt-2 mx-2">
           <svg
@@ -72,8 +72,8 @@
           </svg>
         </a>
       </div>
-    </div>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    </nav>
+    <nav class="navbar navbar-expand-md navbar-light  bg-light">
       <div class="container-fluid d-flex align-items-center">
         <router-link to="/" class="navbar-brand border-0">
           <img src="../../assets/logo.png" alt="" class="logo" />
