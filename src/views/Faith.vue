@@ -41,7 +41,7 @@
           </div>
         </div>
         <div class="artist-video ">
-         <iframe src="https://www.youtube.com/embed/t4jeQDuaMo8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video"></iframe>
+         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/t4jeQDuaMo8"></iframe>
         </div>
         <div class="artist-galery d-flex mt-5 pt-5">
           <img src="../assets/img/1.jpg" style="width:35%">
