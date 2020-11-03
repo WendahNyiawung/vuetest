@@ -116,9 +116,9 @@
                 <a href="#" class="nav-link mx-1 text-lg-center">NEWS</a>
                 <ul>
                   <li class="px-3 py-3">
-                     <router-link to="/faith" class="nav-link text-light border-0 mr-3">BLOG</router-link>
-                     <router-link to="/faith" class="nav-link text-light border-0 ">MEDIA RELEASE</router-link>
-                     <router-link to="/faith" class="nav-link text-light border-0 ">WARNER CARE</router-link>
+                     <router-link to="/blog" class="nav-link text-light border-0 mr-3">BLOG</router-link>
+                     <router-link to="/blog" class="nav-link text-light border-0 ">MEDIA RELEASE</router-link>
+                     <router-link to="/blog" class="nav-link text-light border-0 ">WARNER CARE</router-link>
                   </li>
                 </ul>
               </li>

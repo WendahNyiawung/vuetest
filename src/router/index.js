@@ -4,6 +4,8 @@ import Home from '../views/Home.vue'
 import profile from '../views/Faith.vue'
 import warner from '../views/WarnerInternational.vue'
 import Contact from '../views/Contact.vue'
+import Blog from '../views/Blog.vue'
+import Blogpost from '../views/BlogPost.vue'
 import 'bootstrap'
 import '../assets/app.scss'
 
@@ -14,6 +16,16 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: Blog
+  },
+  {
+    path: '/blogpost',
+    name: 'Blogpost',
+    component: Blogpost
   },
   {
     path: '/faith',
