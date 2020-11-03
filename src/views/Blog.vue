@@ -7,7 +7,7 @@
           v-for="(blog, index) in blogs"
           :key="index"
           class="card mt-sm-2 border border-light"
-          style="width: 40rem; margin-left:3rem; background-color:black;"
+
         >
           <img src="../assets/img/640x360.png" class="card-img-top" alt="..." />
           <div class="card-body px-3">
@@ -19,7 +19,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 d-sm-none d-lg-block">
         <ul class="list-group" style="background-color:black;">
           <li class="list-group-item " style="font-size:1.3rem; font-weight:600;color:#000">CATEGORIES</li>
            <router-link to="/blog" class="list-group-item">BLOG</router-link>
