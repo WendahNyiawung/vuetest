@@ -76,7 +76,7 @@
     <nav class="navbar navbar-expand-md navbar-light  bg-light">
       <div class="container-fluid d-flex align-items-center">
         <router-link to="/" class="navbar-brand border-0">
-          <img src="../../assets/logo.png" alt="" class="logo" />
+          <img src="../../assets/logo.jpg" alt="" class="logo" />
         </router-link>
         <button
           class="navbar-toggler"

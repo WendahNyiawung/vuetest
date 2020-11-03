@@ -105,7 +105,8 @@ nav a:hover {
 
 
 .logo{
-    width: 13.8rem;
+    width: 8.8rem;
+    height: 7rem;
 }
 
 .carousel{
@@ -202,10 +203,6 @@ nav a:hover {
     font-size: 1.1rem;
     padding: 0rem 3rem;
 }
-.video{
-    width: 1080;
-    height: 480;
-}
 .artist-contact{
     background-image:linear-gradient( rgba(0, 0, 0, 0.575) 18%, rgba(0, 0, 0, 0.575)), url(../assets/img/contact_page_bg.jpg);
     height: 230px;
@@ -226,7 +223,24 @@ nav a:hover {
     color: white;
 
 }
+.video-container{
+     overflow: hidden;
+    position: relative;
+    width:100%;
+}
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
 
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 /// Media queries
 @media screen and (max-width: 441px) {
   .carousel-cap{
@@ -256,10 +270,9 @@ nav a:hover {
     font-size: 1.7rem;
     padding: 2rem 1rem;
 }
-.video{
-    width: 420px;
+.buy-btn{
+    margin-left: 8rem;
 }
-
   
 }
 
