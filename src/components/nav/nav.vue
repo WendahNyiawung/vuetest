@@ -73,7 +73,7 @@
         </a>
       </div>
     </nav>
-    <nav class="navbar navbar-expand-md navbar-light  bg-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent">
       <div class="container-fluid d-flex align-items-center">
         <router-link to="/" class="navbar-brand border-0">
           <img src="../../assets/logo.jpg" alt="" class="logo" />
@@ -92,42 +92,74 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="d-sm-block d-lg-flex ml-auto align-items-center">
             <router-link to="/" class="nav-link mx-1">HOME</router-link>
-           <!--
+            <!--
               <router-link to="/warnerinternational" class="mx-1 nav-link"
               >WARNER INTERNATIONAL</router-link
             >
            -->
-            <div class="d-artist">
-                 <ul>
-              <li>
-                <a href="#" class="nav-link mx-1 text-lg-center">DOMESTIC ARTIST</a>
-                <ul>
-                  <li class="px-3">
-                     <router-link to="/faith" class="nav-link text-light border-0 mr-5">ARTIST NAME</router-link>
-                     <router-link to="/faith" class="nav-link text-light border-0 mr-5">ARTIST NAME</router-link>
-                     <router-link to="/faith" class="nav-link text-light border-0 mr-5">ARTIST NAME</router-link>
-                     <router-link to="/faith" class="nav-link text-light border-0 mr-5">ARTIST NAME</router-link>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            <div class="d-artist d-sm-none d-lg-block">
+              <ul>
+                <li>
+                  <a href="#" class="nav-link mx-1 text-lg-center"
+                    >DOMESTIC ARTIST</a
+                  >
+                  <ul>
+                    <li class="px-3">
+                      <router-link
+                        to="/faith"
+                        class="nav-link text-light border-0 mr-5"
+                        >ARTIST NAME</router-link
+                      >
+                      <router-link
+                        to="/faith"
+                        class="nav-link text-light border-0 mr-5"
+                        >ARTIST NAME</router-link
+                      >
+                      <router-link
+                        to="/faith"
+                        class="nav-link text-light border-0 mr-5"
+                        >ARTIST NAME</router-link
+                      >
+                      <router-link
+                        to="/faith"
+                        class="nav-link text-light border-0 mr-5"
+                        >ARTIST NAME</router-link
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </div>
-            <div class="news">
-                 <ul>
-              <li>
-                <a href="#" class="nav-link mx-1 text-lg-center">NEWS</a>
-                <ul>
-                  <li class="px-3 py-3">
-                     <router-link to="/blog" class="nav-link text-light border-0 mr-3">BLOG</router-link>
-                     <router-link to="/blog" class="nav-link text-light border-0 ">MEDIA RELEASE</router-link>
-                     <router-link to="/blog" class="nav-link text-light border-0 ">WARNER CARE</router-link>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            <div class="news d-sm-none d-lg-block">
+              <ul>
+                <li>
+                  <a href="#" class="nav-link mx-1 text-lg-center">NEWS</a>
+                  <ul>
+                    <li class="px-3 py-3">
+                      <router-link
+                        to="/blog"
+                        class="nav-link text-light border-0 mr-3"
+                        >BLOG</router-link
+                      >
+                      <router-link
+                        to="/blog"
+                        class="nav-link text-light border-0"
+                        >MEDIA RELEASE</router-link
+                      >
+                      <router-link
+                        to="/blog"
+                        class="nav-link text-light border-0"
+                        >WARNER CARE</router-link
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </div>
-          
-            <router-link to="/contact" class=" nav-link mx-1">CONTACT</router-link>
+
+            <router-link to="/contact" class="nav-link mx-1"
+              >CONTACT</router-link
+            >
 
             <button
               href=""
@@ -149,10 +181,35 @@
                 />
               </svg>
             </button>
+             <div class="mobile-nav d-lg-none">
+      <ul class="list-group">
+       <router-link
+                        to="/faith"
+                        class="nav-link  border-0 mr-5"
+                        >ARTIST NAME</router-link
+                      >
+       <router-link
+                        to="/faith"
+                        class="list-group-item  border-0 mr-5"
+                        >ARTIST NAME</router-link
+                      >
+       <router-link
+                        to="/blog"
+                        class="list-group-item  border-0 mr-5"
+                        >BLOG</router-link
+                      >
+       <router-link
+                        to="/blog"
+                        class="list-group-item  border-0 mr-5"
+                        >MEDIA RELEASE</router-link
+                      >
+      </ul>
+    </div>
           </div>
         </div>
       </div>
     </nav>
+   
   </header>
 </template>
 <script>
@@ -160,7 +217,7 @@ export default {
   data() {
     return {
       followUs: false,
-      domesticartist:false
+      domesticartist: false,
     };
   },
 };

@@ -2,10 +2,10 @@
   <div class="blogs py-4">
     <div class="container">
       <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-9 mb-3">
           <div
             class="card mt-sm-2 border border-light"
-            style="width: 40rem; margin-left: 3rem; background-color: black"
+            style="background-color: black;"
           >
             <img
               src="../assets/img/640x360.png"
@@ -13,10 +13,10 @@
               alt="..."
             />
             <div class="card-body px-3">
-              <h5 class="card-title text-center">
+              <h5 class="card-title text-center text-light">
                 STORMZY UNVEILS MUSIC VIDEO FOR ‘RAINFALL’ FT. TIANA MAJOR9
               </h5>
-              <p class="card-text">
+              <p class="card-text text-light">
                 British musician Stormzy has unveiled the incredible music video
                 for ‘Rainfall’ (feat. Tiana Major9). Produced by Jay Weathers,
                 ‘Rainfall’ is the latest single to be taken from his UK number
